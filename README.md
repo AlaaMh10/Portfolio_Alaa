@@ -8,15 +8,14 @@ Projects Section: Showcases recent work, including links to live projects and Gi
 Contact Form: A contact form to send messages directly from the website.
 Footer: Contains links to social profiles, including LinkedIn.
 <h2>Technologies Used</h2>
-<ul>
-  
+<ul> 
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
 <li>Swiper.js</li>
 <li>Typed.js</li>
 <li>jQuery</li>
-<li>Tilt.js<li>
+<li>Tilt.js</li>
 </ul>
 
 This project is licensed under the MIT License - see the LICENSE file for details.

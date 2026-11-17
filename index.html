@@ -5,8 +5,9 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Allow images hosted on this site, embedded data images, and HTTPS image sources. -->
   <meta http-equiv="Content-Security-Policy"
-      content="img-src data:;">
+      content="img-src 'self' data: https:;">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
   <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
@@ -17,7 +18,7 @@
 
 <body>
   <!-- Header -->
-  <!-- <header class="header" id="header"> -->
+  <header class="header" id="header">
     <nav class="nav container">
       <a href="#" class="nav_logo">Alaa</a>
 
@@ -566,14 +567,13 @@
                 <span class="contact_subtitle">Tozeur, Tunisia</span>
               </div>
             </div>
-          </a>
         </div>
 
         <form action="https://formspree.io/f/mgvwekzl" class="contact_form grid" id="contact-form" method="POST">
           <div id="alert" class="alert_style"></div>
           <div class="contact_inputs grid">
             <div class="contact_content">
-              <label class="contact_label">Name</label>
+              <label for="name" class="contact_label">Name</label>
               <input type="text" name="name" class="contact_input" id="name" required>
             </div>
             <div class="contact_content">
@@ -587,7 +587,7 @@
           </div>
           <div class="contact_content">
             <label for="message" class="contact_label">Message</label>
-            <textarea name="message" id="" cols="0" rows="7" class="contact_input message" id="message"
+            <textarea name="message" cols="0" rows="7" class="contact_input message" id="message"
               style="resize: vertical;" required></textarea>
           </div>
 
@@ -627,7 +627,6 @@
         <div class="footer_socials">
           <a href="https://www.linkedin.com/in/alaa-mahmoudi-3b9a38245/" target="_blank" class="footer_social">
             <i class="uil uil-linkedin-alt"></i>
-          </a>
           </a>
         </div>
       </div>
